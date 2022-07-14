@@ -14,6 +14,8 @@ h1 {
 
 body  {
     overflow-y: scroll;
+    background-image: linear-gradient(rgb(94, 94, 245), rgb(224, 120, 155), lavenderblush);
+    background-attachment: fixed;
 }
 
 /* width */
