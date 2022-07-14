@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    /* background-color: cornflowerblue; */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body  {
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+
+.caja {
+    background-color: darkblue;
+    text-align: left;
+    border-radius: 3px;
+    padding: 30px;
+    color: whitesmoke;
+}
+
+label {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto {
+    width: 100%;
+}
+
+form {
+    margin: 0;
+}
+
+button {
+    color: whitesmoke;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+}
